@@ -1,0 +1,51 @@
+{
+    "Raw Data Info": {
+        "raw_data_id": "C-220809_13_CR01_01",
+        "location_id": "cr01",
+        "location_name": "비산사거리",
+        "cctv_number": "01",
+        "copyrighter": "(주)미디어그룹사람과숲",
+        "resolution": "[3840, 2160]",
+        "date": "2022-08-09",
+        "start_time": "13:00:00",
+        "end_time": "14:00:00",
+        "length": 3600,
+        "fps": 30,
+        "season": "su",
+        "weather": "s",
+        "day_type": "w",
+        "road_type": "cr",
+        "cross_type": "f4",
+        "cctv_type": 0,
+        "lens_type": "na",
+        "cctv_height": 700,
+        "cctv_angle": 22,
+        "cctv_gps": "[37.3985, 126.9339]",
+        "file_extension": "mp4"
+    },
+    "Source Data Info": {
+        "source_data_id": "C-220809_13_CR01_01_A0008",
+        "classification_id": "a",
+        "extract_time": "13:00:24",
+        "file_extension": "jpg"
+    },
+    "Learning Data Info": {
+        "path": "교차로/[cr01]비산사거리/01번",
+        "json_data_id": "C-220809_13_CR01_01_A0008",
+        "file_extension": "json",
+        "annotations": [
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    1009.53,
+                    1703.39,
+                    364.57,
+                    331.26
+                ],
+                "brand_id": "현대",
+                "model_id": "제네시스_G80 (RG3)(2020)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "Raw Data Info": {
+        "raw_data_id": "C-220711_07_SR01_01",
+        "location_id": "sr01",
+        "location_name": "벌말성당삼거리",
+        "cctv_number": "01",
+        "copyrighter": "(주)미디어그룹사람과숲",
+        "resolution": [
+            1920,
+            1080
+        ],
+        "date": "2022-07-11",
+        "start_Time": "07:00:00",
+        "end_Time": "08:00:00",
+        "length": 3600,
+        "fps": 30,
+        "season": "su",
+        "weather": "s",
+        "day_type": "w",
+        "road_type": "sr",
+        "cross_type": "",
+        "cctv_type": 0,
+        "lens_type": "na",
+        "cctv_height": 700,
+        "cctv_angle": 22,
+        "cctv_gps": "[37.3934, 126.9721]",
+        "file_extension": "mp4"
+    },
+    "Source Data Info": {
+        "source_data_id": "C-220711_07_SR01_01_A0004",
+        "classification_id": "a",
+        "extract_time": "07:00:12",
+        "file_extension": "jpg"
+    },
+    "Learning Data Info": {
+        "path": "이면도로/[sr01]벌말성당삼거리/01번",
+        "json_data_id": "C-220711_07_SR01_01_A0004",
+        "file_extension": "json",
+        "annotations": [
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    1347.55,
+                    685.37,
+                    447.47,
+                    382.93
+                ],
+                "brand_id": "기아",
+                "model_id": "카니발_올 뉴(2014)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    1203.08,
+                    461.78,
+                    267.36,
+                    224.49
+                ],
+                "brand_id": "현대",
+                "model_id": "스타렉스_그랜드(2007)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    912.34,
+                    610.04,
+                    290.06,
+                    377.39
+                ],
+                "brand_id": "현대",
+                "model_id": "아반테_MD(2010)"
+            }
+        ]
+    }
+}

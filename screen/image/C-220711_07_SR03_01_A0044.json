@@ -1,0 +1,63 @@
+{
+    "Raw Data Info": {
+        "raw_data_id": "C-220711_07_SR03_01",
+        "location_id": "sr03",
+        "location_name": "엔미디어플랫폼",
+        "cctv_number": "01",
+        "copyrighter": "(주)미디어그룹사람과숲",
+        "resolution": "[1920, 1080]",
+        "date": "2022-07-11",
+        "start_time": "07:00:00",
+        "end_time": "08:00:00",
+        "length": 3600,
+        "fps": 30,
+        "season": "su",
+        "weather": "s",
+        "day_type": "w",
+        "road_type": "sr",
+        "cross_type": "",
+        "cctv_type": 0,
+        "lens_type": "na",
+        "cctv_height": 700,
+        "cctv_angle": 22,
+        "cctv_gps": "[37.3979, 126.9727]",
+        "file_extension": "mp4"
+    },
+    "Source Data Info": {
+        "source_data_id": "C-220711_07_SR03_01_A0044",
+        "classification_id": "a",
+        "extract_time": "07:02:12",
+        "file_extension": "jpg"
+    },
+    "Learning Data Info": {
+        "path": "이면도로/[sr03]엔미디어플랫폼/01번",
+        "json_data_id": "C-220711_07_SR03_01_A0044",
+        "file_extension": "json",
+        "annotations": [
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    928.85,
+                    497.76,
+                    347.01,
+                    306.72
+                ],
+                "brand_id": "기아",
+                "model_id": "카렌스_뉴(2006)"
+            },
+            {
+                "class_id": "car-03",
+                "type": "bbox",
+                "coord": [
+                    262.1,
+                    645.92,
+                    358.7,
+                    398.99
+                ],
+                "brand_id": "기아",
+                "model_id": "봉고_봉고 Ⅲ(Unknown)"
+            }
+        ]
+    }
+}

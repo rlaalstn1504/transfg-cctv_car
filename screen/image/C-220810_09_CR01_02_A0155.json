@@ -1,0 +1,135 @@
+{
+    "Raw Data Info": {
+        "raw_data_id": "C-220810_09_CR01_02",
+        "location_id": "cr01",
+        "location_name": "비산사거리",
+        "cctv_number": "02",
+        "copyrighter": "(주)미디어그룹사람과숲",
+        "resolution": "[3840, 2160]",
+        "date": "2022-08-10",
+        "start_time": "09:00:00",
+        "end_time": "10:00:00",
+        "length": 3600,
+        "fps": 30,
+        "season": "su",
+        "weather": "s",
+        "day_type": "w",
+        "road_type": "cr",
+        "cross_type": "f4",
+        "cctv_type": 0,
+        "lens_type": "na",
+        "cctv_height": 700,
+        "cctv_angle": 22,
+        "cctv_gps": "[37.3985, 126.9339]",
+        "file_extension": "mp4"
+    },
+    "Source Data Info": {
+        "source_data_id": "C-220810_09_CR01_02_A0155",
+        "classification_id": "a",
+        "extract_time": "09:07:45",
+        "file_extension": "jpg"
+    },
+    "Learning Data Info": {
+        "path": "교차로/[cr01]비산사거리/02번",
+        "json_data_id": "C-220810_09_CR01_02_A0155",
+        "file_extension": "json",
+        "annotations": [
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    3060.7,
+                    1121.05,
+                    175.56,
+                    153.75
+                ],
+                "brand_id": "현대",
+                "model_id": "아반테_MD(2010)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    1156.79,
+                    1093.45,
+                    401.51,
+                    175.35
+                ],
+                "brand_id": "기아",
+                "model_id": "K8_K8(2021)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    3633.07,
+                    1200.26,
+                    175.0,
+                    163.64
+                ],
+                "brand_id": "르노삼성",
+                "model_id": "SM5_뉴(2005)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    2742.4,
+                    1290.62,
+                    284.71,
+                    279.81
+                ],
+                "brand_id": "기아",
+                "model_id": "쏘렌토_R(2009)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    2641.73,
+                    1056.96,
+                    239.31,
+                    208.63
+                ],
+                "brand_id": "현대",
+                "model_id": "스타렉스_그랜드(2007)"
+            },
+            {
+                "class_id": "car-03",
+                "type": "bbox",
+                "coord": [
+                    2045.3,
+                    1398.8,
+                    424.15,
+                    396.66
+                ],
+                "brand_id": "현대",
+                "model_id": "포터_2(HR)(Unknown)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    3144.83,
+                    1735.59,
+                    367.58,
+                    402.92
+                ],
+                "brand_id": "벤츠",
+                "model_id": "CLA-클래스_C117(2014)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    3250.2,
+                    1241.5,
+                    234.03,
+                    238.08
+                ],
+                "brand_id": "현대",
+                "model_id": "싼타페_TM(2018)"
+            }
+        ]
+    }
+}

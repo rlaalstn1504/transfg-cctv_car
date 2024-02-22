@@ -1,0 +1,63 @@
+{
+    "Raw Data Info": {
+        "raw_data_id": "C-220805_06_CR02_01",
+        "location_id": "cr02",
+        "location_name": "안양시청사거리",
+        "cctv_number": "01",
+        "copyrighter": "(주)미디어그룹사람과숲",
+        "resolution": "[3840, 2160]",
+        "date": "2022-08-05",
+        "start_Time": "06:00:00",
+        "end_Time": "07:00:00",
+        "length": 3600,
+        "fps": 30,
+        "season": "su",
+        "weather": "s",
+        "day_type": "w",
+        "road_type": "cr",
+        "cross_type": "f4",
+        "cctv_type": 0,
+        "lens_type": "na",
+        "cctv_height": 700,
+        "cctv_angle": 22,
+        "cctv_gps": "[37.3925, 126.9555]",
+        "file_extension": "mp4"
+    },
+    "Source Data Info": {
+        "source_data_id": "C-220805_06_CR02_01_A0124",
+        "classification_id": "a",
+        "extract_time": "06:06:12",
+        "file_extension": "jpg"
+    },
+    "Learning Data Info": {
+        "path": "교차로/[cr02]안양시청사거리/01번",
+        "json_data_id": "C-220805_06_CR02_01_A0124",
+        "file_extension": "json",
+        "annotations": [
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    1481.77,
+                    1145.6,
+                    594.94,
+                    314.67
+                ],
+                "brand_id": "BMW",
+                "model_id": "X시리즈_X5 (G05)(2019)"
+            },
+            {
+                "class_id": "car-01",
+                "type": "bbox",
+                "coord": [
+                    2909.78,
+                    1592.73,
+                    543.96,
+                    540.86
+                ],
+                "brand_id": "쌍용",
+                "model_id": "티볼리_티볼리(2015)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,5 @@
+numpy
+tqdm
+streamlit
+openpyxl
+xlrd
